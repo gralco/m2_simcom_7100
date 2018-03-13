@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name m2_key_b_3042)(type KiCad)(uri "$(KIPRJMOD)/m2_key_b_3042.pretty")(options "")(descr "M.2 Key B 3042"))
+)
