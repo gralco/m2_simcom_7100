@@ -13,6 +13,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "M.2 Key B 3042 Template")
+    (date 2018-03-15)
+    (rev 0.5.0)
+    (company "Purism SPC")
+    (comment 1 "Copyright 2018")
+    (comment 2 "GNU GPLv3")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
