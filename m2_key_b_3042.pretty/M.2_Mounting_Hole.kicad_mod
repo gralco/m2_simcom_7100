@@ -1,4 +1,4 @@
-(module M.2_Mounting_Hole (layer F.Cu) (tedit 5AA9E884)
+(module M.2_Mounting_Hole (layer F.Cu) (tedit 5AABE286)
   (descr "Mounting Hole 3.5mm")
   (tags "mounting hole 3.5mm")
   (solder_mask_margin -1.25)
@@ -13,6 +13,6 @@
   (fp_line (start -2.375 -1) (end -2.375 0) (layer B.Mask) (width 1.25))
   (fp_line (start 2.375 -1) (end 2.375 0) (layer B.Mask) (width 1.25))
   (fp_arc (start 0 0) (end -2.25 0) (angle 180) (layer B.Mask) (width 1))
-  (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.5) (layers *.Cu *.Mask)
+  (pad 1 thru_hole circle (at 0 0) (size 6.15 6.15) (drill 3.5) (layers *.Cu *.Mask)
     (zone_connect 2))
 )
