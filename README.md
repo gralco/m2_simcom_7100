@@ -1,3 +1,3 @@
-# m2_key_b_3042_template
+# m2_simcom_7100
 
-M.2 Key B 3042 Template Design in KiCad.
+SIMCom 7100 on a M.2 card.

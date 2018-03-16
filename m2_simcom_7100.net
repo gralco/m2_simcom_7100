@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/ekuzmenko/m2_key_b_3042_template/m2_key_b_3042_template.sch)
+    (source /home/ekuzmenko/m2_simcom_7100/m2_simcom_7100.sch)
     (date "Wed 14 Mar 2018 10:50:10 PM EDT")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source m2_key_b_3042_template.sch)
+        (source m2_simcom_7100.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -18,7 +18,7 @@
     (comp (ref J1)
       (value M.2_Key_B)
       (footprint m2_key_b_3042:M.2_Key_B_Gold_Fingers)
-      (libsource (lib m2_key_b_3042_template) (part M.2_Key_B))
+      (libsource (lib m2_simcom_7100) (part M.2_Key_B))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AA6E568))
     (comp (ref ANT1)
@@ -54,7 +54,7 @@
       (pins
         (pin (num 1) (name In) (type passive))
         (pin (num 2) (name Ext) (type passive))))
-    (libpart (lib m2_key_b_3042_template) (part M.2_Key_B)
+    (libpart (lib m2_simcom_7100) (part M.2_Key_B)
       (description "Generic connector, double row, 02x38, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)")
       (docs ~)
       (footprints
@@ -138,8 +138,8 @@
   (libraries
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical m2_key_b_3042_template)
-      (uri /home/ekuzmenko/m2_key_b_3042_template/m2_key_b_3042_template.lib)))
+    (library (logical m2_simcom_7100)
+      (uri /home/ekuzmenko/m2_simcom_7100/m2_simcom_7100.lib)))
   (nets
     (net (code 1) (name /PERp1/USB3.0-Rx+/SSIC-RxP)
       (node (ref J1) (pin 31)))

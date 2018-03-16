@@ -59,6 +59,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=m2_key_b_3042_template
+LibName33=m2_simcom_7100
 [general]
 version=1

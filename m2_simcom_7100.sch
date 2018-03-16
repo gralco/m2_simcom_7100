@@ -31,8 +31,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:m2_key_b_3042_template
-LIBS:m2_key_b_3042_template-cache
+LIBS:m2_simcom_7100
+LIBS:m2_simcom_7100-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
