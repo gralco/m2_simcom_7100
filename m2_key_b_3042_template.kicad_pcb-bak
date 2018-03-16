@@ -3,7 +3,7 @@
   (general
     (links 72)
     (no_connects 4)
-    (area 84.07143 67.25 166.375 112.000001)
+    (area 118.774999 79.924999 160.925001 110.075001)
     (thickness 1.6)
     (drawings 23)
     (tracks 39)
@@ -59,6 +59,7 @@
     (via_drill 0.4)
     (via_min_size 0.508)
     (via_min_drill 0.254)
+    (user_via 0.508 0.254)
     (uvia_size 0.3)
     (uvia_drill 0.1)
     (uvias_allowed no)
@@ -836,7 +837,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.25) (thermal_bridge_width 0.25))
     (polygon
       (pts
-        (xy 121.6 85.825) (xy 121.6 85.4) (xy 121.575 85.4) (xy 121.575 85.825)
+        (xy 121.6 85.825) (xy 121.6 85.4) (xy 121.59 85.4) (xy 121.59 85.825)
       )
     )
   )
@@ -844,10 +845,10 @@
     (connect_pads (clearance 0.25))
     (min_thickness 0.00001)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
-    (fill yes (arc_segments 16) (thermal_gap 0.25) (thermal_bridge_width 0.25))
+    (fill (arc_segments 16) (thermal_gap 0.25) (thermal_bridge_width 0.25))
     (polygon
       (pts
-        (xy 121.6 104.175) (xy 121.6 104.6) (xy 121.575 104.6) (xy 121.575 104.175)
+        (xy 121.6 104.175) (xy 121.6 104.6) (xy 121.59 104.6) (xy 121.59 104.175)
       )
     )
   )
