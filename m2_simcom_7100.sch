@@ -50,304 +50,153 @@ $EndDescr
 $Comp
 L M.2_Key_B J1
 U 1 1 5AA6E568
-P 2950 3700
-F 0 "J1" H 3000 5600 50  0000 C CNN
-F 1 "M.2_Key_B" H 3000 1700 50  0000 C CNN
-F 2 "m2_key_b_3042:M.2_Key_B_Gold_Fingers" H 2950 3700 50  0001 C CNN
-F 3 "" H 2950 3700 50  0001 C CNN
-	1    2950 3700
+P 2150 2800
+F 0 "J1" H 2200 4700 50  0000 C CNN
+F 1 "M.2_Key_B" H 2200 800 50  0000 C CNN
+F 2 "m2_key_b_3042:M.2_Key_B_Gold_Fingers" H 2150 2800 50  0001 C CNN
+F 3 "" H 2150 2800 50  0001 C CNN
+	1    2150 2800
 	-1   0    0    1   
 $EndComp
 $Comp
 L +3V3 #PWR01
 U 1 1 5AA6F30C
-P 1550 1800
-F 0 "#PWR01" H 1550 1650 50  0001 C CNN
-F 1 "+3V3" H 1550 1940 50  0000 C CNN
-F 2 "" H 1550 1800 50  0001 C CNN
-F 3 "" H 1550 1800 50  0001 C CNN
-	1    1550 1800
+P 750 900
+F 0 "#PWR01" H 750 750 50  0001 C CNN
+F 1 "+3V3" H 750 1040 50  0000 C CNN
+F 2 "" H 750 900 50  0001 C CNN
+F 3 "" H 750 900 50  0001 C CNN
+	1    750  900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 1850 2650 1850
-Wire Wire Line
-	1550 1800 1550 2050
-Wire Wire Line
-	1550 1950 2650 1950
-Connection ~ 1550 1850
-Wire Wire Line
-	1550 2050 2650 2050
-Connection ~ 1550 1950
 $Comp
 L GND #PWR02
 U 1 1 5AA6F360
-P 4650 5450
-F 0 "#PWR02" H 4650 5200 50  0001 C CNN
-F 1 "GND" H 4650 5300 50  0000 C CNN
-F 2 "" H 4650 5450 50  0001 C CNN
-F 3 "" H 4650 5450 50  0001 C CNN
-	1    4650 5450
+P 3850 4550
+F 0 "#PWR02" H 3850 4300 50  0001 C CNN
+F 1 "GND" H 3850 4400 50  0000 C CNN
+F 2 "" H 3850 4550 50  0001 C CNN
+F 3 "" H 3850 4550 50  0001 C CNN
+	1    3850 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 2000 4650 2000
-Wire Wire Line
-	3150 1900 4650 1900
-Text Label 1700 2150 0    60   ~ 0
+Text Label 900  1250 0    60   ~ 0
 SUSCLK
-Text Label 1700 2250 0    60   ~ 0
+Text Label 900  1350 0    60   ~ 0
 SIM_Detect
-Text Label 1700 2350 0    60   ~ 0
+Text Label 900  1450 0    60   ~ 0
 COEX1
-Text Label 1700 2450 0    60   ~ 0
+Text Label 900  1550 0    60   ~ 0
 COEX2
-Text Label 1700 2550 0    60   ~ 0
+Text Label 900  1650 0    60   ~ 0
 COEX3
-NoConn ~ 2650 2650
-NoConn ~ 2650 2750
-Text Label 1700 2850 0    60   ~ 0
+NoConn ~ 1850 1750
+NoConn ~ 1850 1850
+Text Label 900  1950 0    60   ~ 0
 ~PEWake
-Text Label 1700 2950 0    60   ~ 0
+Text Label 900  2050 0    60   ~ 0
 ~CLKREQ
-Text Label 1700 3050 0    60   ~ 0
+Text Label 900  2150 0    60   ~ 0
 ~PERST
-Text Label 1700 3150 0    60   ~ 0
+Text Label 900  2250 0    60   ~ 0
 GPIO_4
-Text Label 1700 3250 0    60   ~ 0
+Text Label 900  2350 0    60   ~ 0
 GPIO_3
-Text Label 1700 3350 0    60   ~ 0
+Text Label 900  2450 0    60   ~ 0
 GPIO_2
-Text Label 1700 3450 0    60   ~ 0
+Text Label 900  2550 0    60   ~ 0
 GPIO_1
-Text Label 1700 3550 0    60   ~ 0
+Text Label 900  2650 0    60   ~ 0
 GPIO_0
-Text Label 1700 3650 0    60   ~ 0
+Text Label 900  2750 0    60   ~ 0
 DEVSLP
-Text Label 1700 3750 0    60   ~ 0
+Text Label 900  2850 0    60   ~ 0
 UIM-PWR
-Text Label 1700 3850 0    60   ~ 0
+Text Label 900  2950 0    60   ~ 0
 UIM-DATA
-Text Label 1700 3950 0    60   ~ 0
+Text Label 900  3050 0    60   ~ 0
 UIM-CLK
-Text Label 1700 4050 0    60   ~ 0
+Text Label 900  3150 0    60   ~ 0
 UIM-RESET
-Text Label 1700 4150 0    60   ~ 0
+Text Label 900  3250 0    60   ~ 0
 GPIO_8
-Text Label 1700 4250 0    60   ~ 0
+Text Label 900  3350 0    60   ~ 0
 GPIO_10
-Text Label 1700 4350 0    60   ~ 0
+Text Label 900  3450 0    60   ~ 0
 GPIO_7
-Text Label 1700 4450 0    60   ~ 0
+Text Label 900  3550 0    60   ~ 0
 GPIO_6
-Text Label 1700 4550 0    60   ~ 0
+Text Label 900  3650 0    60   ~ 0
 GPIO_5
-Text Label 1700 5050 0    60   ~ 0
+Text Label 900  4150 0    60   ~ 0
 GPIO_9/DAS/~DSS
-Text Label 1700 5150 0    60   ~ 0
+Text Label 900  4250 0    60   ~ 0
 ~W_DISABLE1
-Text Label 1700 5250 0    60   ~ 0
+Text Label 900  4350 0    60   ~ 0
 ~Full_Card_Power_Off
 $Comp
 L +3V3 #PWR03
 U 1 1 5AA6F6DC
-P 1550 5300
-F 0 "#PWR03" H 1550 5150 50  0001 C CNN
-F 1 "+3V3" H 1550 5440 50  0000 C CNN
-F 2 "" H 1550 5300 50  0001 C CNN
-F 3 "" H 1550 5300 50  0001 C CNN
-	1    1550 5300
+P 750 4400
+F 0 "#PWR03" H 750 4250 50  0001 C CNN
+F 1 "+3V3" H 750 4540 50  0000 C CNN
+F 2 "" H 750 4400 50  0001 C CNN
+F 3 "" H 750 4400 50  0001 C CNN
+	1    750  4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 5350 2650 5350
-Wire Wire Line
-	2600 5350 2600 5450
-Wire Wire Line
-	1550 5350 1550 5300
-Wire Wire Line
-	2600 5450 2650 5450
-Wire Wire Line
-	2650 2150 1700 2150
-Wire Wire Line
-	2650 2250 1700 2250
-Wire Wire Line
-	2650 2350 1700 2350
-Wire Wire Line
-	2650 2450 1700 2450
-Wire Wire Line
-	2650 2550 1700 2550
-Wire Wire Line
-	2650 2850 1700 2850
-Wire Wire Line
-	2650 2950 1700 2950
-Wire Wire Line
-	2650 3050 1700 3050
-Wire Wire Line
-	2650 3150 1700 3150
-Wire Wire Line
-	2650 3250 1700 3250
-Wire Wire Line
-	2650 3350 1700 3350
-Wire Wire Line
-	2650 3450 1700 3450
-Wire Wire Line
-	2650 3550 1700 3550
-Wire Wire Line
-	2650 3650 1700 3650
-Wire Wire Line
-	2650 3750 1700 3750
-Wire Wire Line
-	2650 3850 1700 3850
-Wire Wire Line
-	2650 3950 1700 3950
-Wire Wire Line
-	2650 4050 1700 4050
-Wire Wire Line
-	2650 4150 1700 4150
-Wire Wire Line
-	2650 4250 1700 4250
-Wire Wire Line
-	2650 4350 1700 4350
-Wire Wire Line
-	2650 4450 1700 4450
-Wire Wire Line
-	2650 4550 1700 4550
-Wire Wire Line
-	2650 5050 1700 5050
-Wire Wire Line
-	2650 5150 1700 5150
-Wire Wire Line
-	2650 5250 1700 5250
-Text Label 4600 2100 2    60   ~ 0
+Text Label 3800 1200 2    60   ~ 0
 CONFIG_1
-Text Label 4600 2200 2    60   ~ 0
+Text Label 3800 1300 2    60   ~ 0
 ~Reset
-Wire Wire Line
-	4650 1900 4650 5450
-Text Label 4600 1800 2    60   ~ 0
+Text Label 3800 900  2    60   ~ 0
 CONFIG_2
-Text Label 4600 2600 2    60   ~ 0
+Text Label 3800 1700 2    60   ~ 0
 ANTCTL0
-Text Label 4600 2500 2    60   ~ 0
+Text Label 3800 1600 2    60   ~ 0
 ANTCTL1
-Text Label 4600 2400 2    60   ~ 0
+Text Label 3800 1500 2    60   ~ 0
 ANTCTL2
-Text Label 4600 2300 2    60   ~ 0
+Text Label 3800 1400 2    60   ~ 0
 ANTCTL3
-Wire Wire Line
-	4650 2700 3150 2700
-Text Label 4600 2800 2    60   ~ 0
+Text Label 3800 1900 2    60   ~ 0
 REFCLKP
-Text Label 4600 2900 2    60   ~ 0
+Text Label 3800 2000 2    60   ~ 0
 REFCLKN
-Wire Wire Line
-	4650 3000 3150 3000
-Connection ~ 4650 2000
-Connection ~ 4650 2700
-Text Label 4600 3100 2    60   ~ 0
+Text Label 3800 2200 2    60   ~ 0
 PETp0/SATA-A+
-Text Label 4600 3200 2    60   ~ 0
+Text Label 3800 2300 2    60   ~ 0
 PETn0/SATA-A-
-Wire Wire Line
-	4650 3300 3150 3300
-Connection ~ 4650 3000
-Text Label 4600 3400 2    60   ~ 0
+Text Label 3800 2500 2    60   ~ 0
 PERp0/SATA-B-
-Text Label 4600 3500 2    60   ~ 0
+Text Label 3800 2600 2    60   ~ 0
 PERn0/SATA-B+
-Text Notes 4700 3500 0    60   ~ 0
+Text Notes 3900 2600 0    60   ~ 0
 ???
-Wire Wire Line
-	4650 3600 3150 3600
-Connection ~ 4650 3300
-Text Label 4600 3700 2    60   ~ 0
+Text Label 3800 2800 2    60   ~ 0
 PETp1/USB3.0-Tx+/SSIC-TxP
-Text Label 4600 3800 2    60   ~ 0
+Text Label 3800 2900 2    60   ~ 0
 PETn1/USB3.0-Tx-/SSIC-TxN
-Wire Wire Line
-	4650 3900 3150 3900
-Connection ~ 4650 3600
-Text Label 4600 4000 2    60   ~ 0
+Text Label 3800 3100 2    60   ~ 0
 PERp1/USB3.0-Rx+/SSIC-RxP
-Text Label 4600 4100 2    60   ~ 0
+Text Label 3800 3200 2    60   ~ 0
 PERn1/USB3.0-Rx-/SSIC-RxN
-Wire Wire Line
-	4650 4200 3150 4200
-Connection ~ 4650 3900
-Text Label 4600 4300 2    60   ~ 0
+Text Label 3800 3400 2    60   ~ 0
 GPIO_12
-Text Label 4600 4400 2    60   ~ 0
+Text Label 3800 3500 2    60   ~ 0
 GPIO_11
-Text Label 4600 4500 2    60   ~ 0
+Text Label 3800 3600 2    60   ~ 0
 CONFIG_0
-Wire Wire Line
-	3150 2100 4600 2100
-Wire Wire Line
-	3150 2200 4600 2200
-Wire Wire Line
-	3150 2300 4600 2300
-Wire Wire Line
-	3150 2400 4600 2400
-Wire Wire Line
-	3150 2500 4600 2500
-Wire Wire Line
-	3150 2600 4600 2600
-Wire Wire Line
-	3150 2800 4600 2800
-Wire Wire Line
-	3150 2900 4600 2900
-Wire Wire Line
-	3150 3100 4600 3100
-Wire Wire Line
-	3150 3200 4600 3200
-Wire Wire Line
-	3150 3400 4600 3400
-Wire Wire Line
-	3150 3500 4600 3500
-Wire Wire Line
-	3150 3700 4600 3700
-Wire Wire Line
-	3150 3800 4600 3800
-Wire Wire Line
-	3150 4000 4600 4000
-Wire Wire Line
-	3150 4100 4600 4100
-Wire Wire Line
-	3150 4300 4600 4300
-Wire Wire Line
-	3150 4400 4600 4400
-Wire Wire Line
-	3150 4500 4600 4500
-Text Label 4550 5100 2    60   ~ 0
+Text Label 3750 4200 2    60   ~ 0
 USB_D-
-Text Label 4550 5200 2    60   ~ 0
+Text Label 3750 4300 2    60   ~ 0
 USB_D+
-Wire Wire Line
-	4550 5200 3150 5200
-Wire Wire Line
-	3150 5100 4550 5100
-Wire Wire Line
-	4650 5000 3150 5000
-Connection ~ 4650 4200
-Wire Wire Line
-	4650 5300 3150 5300
-Connection ~ 4650 5000
-Wire Wire Line
-	3150 5400 4850 5400
-Connection ~ 4650 5300
-Text Label 4550 5500 2    60   ~ 0
+Text Label 3750 4600 2    60   ~ 0
 CONFIG_3
-Wire Wire Line
-	3150 5500 4550 5500
-Wire Wire Line
-	3150 1800 4600 1800
-Connection ~ 4650 5400
-Connection ~ 2600 5350
-Text Notes 2450 1650 0    60   ~ 0
+Text Notes 1650 750  0    60   ~ 0
   (Used Table 48)\nCHECK TABLE 29/30!!!
 $Bitmap
-Pos 3050 6700
+Pos 2250 5800
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 96 00 00 01 2D 08 02 00 00 00 FC FB 68 
@@ -5534,88 +5383,83 @@ FB F1 F1 F1 C9 C9 C9 7B F6 EC 51 AB D5 34 1A CD 6A B5 B6 B5 B5 5D BC 78 B1 B7 B7
 82 
 EndData
 $EndBitmap
-Text Notes 1550 6050 0    60   ~ 0
+Text Notes 750  5150 0    60   ~ 0
 Unfortunately, it seems most WWAN modules don't explicitly support SSIC\nThis will need to be looked into:\n"SSIC brings 80% power savings using a MIPI\n M-PHY and SSIC, as compared to a USB 3.0 PHY"
-Text Notes 1550 7400 0    60   ~ 0
+Text Notes 750  6500 0    60   ~ 0
 Huawei MU736 is an example of 3G M.2 card which supports SSIC\nThe i.MX 8M does not explicity state SSIC support
-Text Notes 1550 6150 0    60   ~ 0
+Text Notes 750  5250 0    60   ~ 0
 "HSIC supported on WWAN configuration 3"
-NoConn ~ 1700 2150
-NoConn ~ 1700 2250
-NoConn ~ 1700 2350
-NoConn ~ 1700 2450
-NoConn ~ 1700 2550
-NoConn ~ 1700 2850
-NoConn ~ 1700 2950
-NoConn ~ 1700 3050
-NoConn ~ 1700 3150
-NoConn ~ 1700 3250
-NoConn ~ 1700 3350
-NoConn ~ 1700 3450
-NoConn ~ 1700 3550
-NoConn ~ 1700 3650
-NoConn ~ 1700 3750
-NoConn ~ 1700 3850
-NoConn ~ 1700 3950
-NoConn ~ 1700 4050
-NoConn ~ 1700 4150
-NoConn ~ 1700 4250
-NoConn ~ 1700 4350
-NoConn ~ 1700 4450
-NoConn ~ 1700 4550
-NoConn ~ 1700 5050
-NoConn ~ 1700 5150
-NoConn ~ 1700 5250
-NoConn ~ 4550 5100
-NoConn ~ 4550 5200
-NoConn ~ 4550 5500
-NoConn ~ 4600 2100
-NoConn ~ 4600 2200
-NoConn ~ 4600 2300
-NoConn ~ 4600 2400
-NoConn ~ 4600 2500
-NoConn ~ 4600 2600
-NoConn ~ 4600 2800
-NoConn ~ 4600 2900
-NoConn ~ 4600 3100
-NoConn ~ 4600 3200
-NoConn ~ 4600 3400
-NoConn ~ 4600 3500
-NoConn ~ 4600 3700
-NoConn ~ 4600 3800
-NoConn ~ 4600 4000
-NoConn ~ 4600 4100
-NoConn ~ 4600 4300
-NoConn ~ 4600 4400
-NoConn ~ 4600 4500
-NoConn ~ 4600 1800
+NoConn ~ 900  1250
+NoConn ~ 900  1350
+NoConn ~ 900  1450
+NoConn ~ 900  1550
+NoConn ~ 900  1650
+NoConn ~ 900  1950
+NoConn ~ 900  2050
+NoConn ~ 900  2150
+NoConn ~ 900  2250
+NoConn ~ 900  2350
+NoConn ~ 900  2450
+NoConn ~ 900  2550
+NoConn ~ 900  2650
+NoConn ~ 900  2750
+NoConn ~ 900  2850
+NoConn ~ 900  2950
+NoConn ~ 900  3050
+NoConn ~ 900  3150
+NoConn ~ 900  3250
+NoConn ~ 900  3350
+NoConn ~ 900  3450
+NoConn ~ 900  3550
+NoConn ~ 900  3650
+NoConn ~ 900  4150
+NoConn ~ 900  4250
+NoConn ~ 900  4350
+NoConn ~ 3750 4200
+NoConn ~ 3750 4300
+NoConn ~ 3750 4600
+NoConn ~ 3800 1200
+NoConn ~ 3800 1300
+NoConn ~ 3800 1400
+NoConn ~ 3800 1500
+NoConn ~ 3800 1600
+NoConn ~ 3800 1700
+NoConn ~ 3800 1900
+NoConn ~ 3800 2000
+NoConn ~ 3800 2200
+NoConn ~ 3800 2300
+NoConn ~ 3800 2500
+NoConn ~ 3800 2600
+NoConn ~ 3800 2800
+NoConn ~ 3800 2900
+NoConn ~ 3800 3100
+NoConn ~ 3800 3200
+NoConn ~ 3800 3400
+NoConn ~ 3800 3500
+NoConn ~ 3800 3600
+NoConn ~ 3800 900 
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 5AA73B31
-P 1850 1800
-F 0 "#FLG04" H 1850 1875 50  0001 C CNN
-F 1 "PWR_FLAG" H 1850 1950 50  0000 C CNN
-F 2 "" H 1850 1800 50  0001 C CNN
-F 3 "" H 1850 1800 50  0001 C CNN
-	1    1850 1800
+P 1050 900
+F 0 "#FLG04" H 1050 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 1050 50  0000 C CNN
+F 2 "" H 1050 900 50  0001 C CNN
+F 3 "" H 1050 900 50  0001 C CNN
+	1    1050 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 1800 1850 1850
-Connection ~ 1850 1850
 $Comp
 L PWR_FLAG #FLG05
 U 1 1 5AA73BF0
-P 4850 5350
-F 0 "#FLG05" H 4850 5425 50  0001 C CNN
-F 1 "PWR_FLAG" H 4850 5500 50  0000 C CNN
-F 2 "" H 4850 5350 50  0001 C CNN
-F 3 "" H 4850 5350 50  0001 C CNN
-	1    4850 5350
+P 4050 4450
+F 0 "#FLG05" H 4050 4525 50  0001 C CNN
+F 1 "PWR_FLAG" H 4050 4600 50  0000 C CNN
+F 2 "" H 4050 4450 50  0001 C CNN
+F 3 "" H 4050 4450 50  0001 C CNN
+	1    4050 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 5400 4850 5350
 $Comp
 L Conn_Coaxial ANT1
 U 1 1 5AA9D3C4
@@ -5682,6 +5526,171 @@ F 3 "" H 10150 3850 50  0001 C CNN
 	1    10150 3850
 	1    0    0    -1  
 $EndComp
+Text Label 9800 3600 0    60   ~ 0
+AUX
+Text Label 9800 2850 0    60   ~ 0
+GPS
+Text Label 9800 1950 0    60   ~ 0
+MAIN
+NoConn ~ 9800 3600
+NoConn ~ 9800 2850
+NoConn ~ 9800 1950
+Wire Wire Line
+	750  950  1850 950 
+Wire Wire Line
+	750  900  750  1150
+Wire Wire Line
+	750  1050 1850 1050
+Connection ~ 750  950 
+Wire Wire Line
+	750  1150 1850 1150
+Connection ~ 750  1050
+Wire Wire Line
+	2350 1100 3850 1100
+Wire Wire Line
+	2350 1000 3850 1000
+Wire Wire Line
+	750  4450 1850 4450
+Wire Wire Line
+	1800 4450 1800 4550
+Wire Wire Line
+	750  4450 750  4400
+Wire Wire Line
+	1800 4550 1850 4550
+Wire Wire Line
+	1850 1250 900  1250
+Wire Wire Line
+	1850 1350 900  1350
+Wire Wire Line
+	1850 1450 900  1450
+Wire Wire Line
+	1850 1550 900  1550
+Wire Wire Line
+	1850 1650 900  1650
+Wire Wire Line
+	1850 1950 900  1950
+Wire Wire Line
+	1850 2050 900  2050
+Wire Wire Line
+	1850 2150 900  2150
+Wire Wire Line
+	1850 2250 900  2250
+Wire Wire Line
+	1850 2350 900  2350
+Wire Wire Line
+	1850 2450 900  2450
+Wire Wire Line
+	1850 2550 900  2550
+Wire Wire Line
+	1850 2650 900  2650
+Wire Wire Line
+	1850 2750 900  2750
+Wire Wire Line
+	1850 2850 900  2850
+Wire Wire Line
+	1850 2950 900  2950
+Wire Wire Line
+	1850 3050 900  3050
+Wire Wire Line
+	1850 3150 900  3150
+Wire Wire Line
+	1850 3250 900  3250
+Wire Wire Line
+	1850 3350 900  3350
+Wire Wire Line
+	1850 3450 900  3450
+Wire Wire Line
+	1850 3550 900  3550
+Wire Wire Line
+	1850 3650 900  3650
+Wire Wire Line
+	1850 4150 900  4150
+Wire Wire Line
+	1850 4250 900  4250
+Wire Wire Line
+	1850 4350 900  4350
+Wire Wire Line
+	3850 1000 3850 4550
+Wire Wire Line
+	3850 1800 2350 1800
+Wire Wire Line
+	3850 2100 2350 2100
+Connection ~ 3850 1100
+Connection ~ 3850 1800
+Wire Wire Line
+	3850 2400 2350 2400
+Connection ~ 3850 2100
+Wire Wire Line
+	3850 2700 2350 2700
+Connection ~ 3850 2400
+Wire Wire Line
+	3850 3000 2350 3000
+Connection ~ 3850 2700
+Wire Wire Line
+	3850 3300 2350 3300
+Connection ~ 3850 3000
+Wire Wire Line
+	2350 1200 3800 1200
+Wire Wire Line
+	2350 1300 3800 1300
+Wire Wire Line
+	2350 1400 3800 1400
+Wire Wire Line
+	2350 1500 3800 1500
+Wire Wire Line
+	2350 1600 3800 1600
+Wire Wire Line
+	2350 1700 3800 1700
+Wire Wire Line
+	2350 1900 3800 1900
+Wire Wire Line
+	2350 2000 3800 2000
+Wire Wire Line
+	2350 2200 3800 2200
+Wire Wire Line
+	2350 2300 3800 2300
+Wire Wire Line
+	2350 2500 3800 2500
+Wire Wire Line
+	2350 2600 3800 2600
+Wire Wire Line
+	2350 2800 3800 2800
+Wire Wire Line
+	2350 2900 3800 2900
+Wire Wire Line
+	2350 3100 3800 3100
+Wire Wire Line
+	2350 3200 3800 3200
+Wire Wire Line
+	2350 3400 3800 3400
+Wire Wire Line
+	2350 3500 3800 3500
+Wire Wire Line
+	2350 3600 3800 3600
+Wire Wire Line
+	3750 4300 2350 4300
+Wire Wire Line
+	2350 4200 3750 4200
+Wire Wire Line
+	3850 4100 2350 4100
+Connection ~ 3850 3300
+Wire Wire Line
+	3850 4400 2350 4400
+Connection ~ 3850 4100
+Wire Wire Line
+	2350 4500 4050 4500
+Connection ~ 3850 4400
+Wire Wire Line
+	2350 4600 3750 4600
+Wire Wire Line
+	2350 900  3800 900 
+Connection ~ 3850 4500
+Connection ~ 1800 4450
+Wire Wire Line
+	1050 900  1050 950 
+Connection ~ 1050 950 
+Wire Wire Line
+	4050 4500 4050 4450
 Wire Wire Line
 	10150 3100 10150 3050
 Wire Wire Line
@@ -5694,13 +5703,15 @@ Wire Wire Line
 	10000 2850 9800 2850
 Wire Wire Line
 	10000 1950 9800 1950
-Text Label 9800 3600 0    60   ~ 0
-AUX
-Text Label 9800 2850 0    60   ~ 0
-GPS
-Text Label 9800 1950 0    60   ~ 0
-MAIN
-NoConn ~ 9800 3600
-NoConn ~ 9800 2850
-NoConn ~ 9800 1950
+$Comp
+L SIM7100 U?
+U 1 1 5AB0190A
+P 5650 3650
+F 0 "U?" H 5100 6750 60  0000 C CNN
+F 1 "SIM7100" H 6050 6750 60  0000 C CNN
+F 2 "" H 5500 5700 60  0001 C CNN
+F 3 "" H 5500 5700 60  0001 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
