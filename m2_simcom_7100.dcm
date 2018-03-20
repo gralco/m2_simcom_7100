@@ -6,4 +6,14 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP VBAT
+D power-flag symbol VBAT
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VBAT_REG
+D power-flag symbol VBAT
+K Power Flag Symbol
+$ENDCMP
+#
 #End Doc Library
