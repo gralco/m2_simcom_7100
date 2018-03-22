@@ -169,12 +169,12 @@ F 3 "" H 4850 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Antenna_Shield ANT1
+L Antenna_Shield ANT5
 U 1 1 5AB020C9
 P 3600 800
-F 0 "ANT1" H 3525 975 50  0000 R CNN
+F 0 "ANT5" H 3525 975 50  0000 R CNN
 F 1 "Main_Antenna" H 3525 900 50  0000 R CNN
-F 2 "m2_simcom7100:MHF4_20449-001E" H 3600 900 50  0001 C CNN
+F 2 "m2_simcom_7100:MHF4_20449-001E" H 3600 900 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/398/RECE.20449.001E.01-27117.pdf" H 3600 900 50  0001 C CNN
 	1    3600 800 
 	-1   0    0    -1  
@@ -1820,7 +1820,7 @@ U 1 1 5AB43212
 P 3850 2500
 F 0 "D2" V 3800 2350 50  0000 C CNN
 F 1 "NC" V 3900 2350 50  0000 C CNN
-F 2 "" H 3850 2500 50  0001 C CNN
+F 2 "m2_simcom_7100:D_0402" H 3850 2500 50  0001 C CNN
 F 3 "https://www.semtech.com/uploads/documents/uclamp2511t.pdf" H 3850 2500 50  0001 C CNN
 	1    3850 2500
 	0    1    1    0   

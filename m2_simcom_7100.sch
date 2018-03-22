@@ -53,7 +53,7 @@ U 1 1 5AA6E568
 P 9050 3000
 F 0 "J1" H 9100 4900 50  0000 C CNN
 F 1 "M.2_Key_B" H 9100 1000 50  0000 C CNN
-F 2 "m2_key_b_3042:M.2_Key_B_Gold_Fingers" H 9050 3000 50  0001 C CNN
+F 2 "m2_simcom_7100:M.2_Key_B_Gold_Fingers" H 9050 3000 50  0001 C CNN
 F 3 "" H 9050 3000 50  0001 C CNN
 	1    9050 3000
 	-1   0    0    1   
@@ -169,12 +169,12 @@ F 3 "" H 4850 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Antenna_Shield ANT1
+L Antenna_Shield ANT5
 U 1 1 5AB020C9
 P 3600 800
-F 0 "ANT1" H 3525 975 50  0000 R CNN
+F 0 "ANT5" H 3525 975 50  0000 R CNN
 F 1 "Main_Antenna" H 3525 900 50  0000 R CNN
-F 2 "m2_simcom7100:MHF4_20449-001E" H 3600 900 50  0001 C CNN
+F 2 "m2_simcom_7100:MHF4_20449-001E" H 3600 900 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/398/RECE.20449.001E.01-27117.pdf" H 3600 900 50  0001 C CNN
 	1    3600 800 
 	-1   0    0    -1  
