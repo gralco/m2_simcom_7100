@@ -53,7 +53,7 @@ U 1 1 5AA6E568
 P 9050 3000
 F 0 "J1" H 9100 4900 50  0000 C CNN
 F 1 "M.2_Key_B" H 9100 1000 50  0000 C CNN
-F 2 "m2_key_b_3042:M.2_Key_B_Gold_Fingers" H 9050 3000 50  0001 C CNN
+F 2 "m2_simcom_7100:M.2_Key_B_Gold_Fingers" H 9050 3000 50  0001 C CNN
 F 3 "" H 9050 3000 50  0001 C CNN
 	1    9050 3000
 	-1   0    0    1   
