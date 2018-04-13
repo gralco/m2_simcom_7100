@@ -1141,12 +1141,6 @@ Text Label 7800 4350 0    60   ~ 0
 UART_TX
 Text Label 7800 3550 0    60   ~ 0
 UART_CTS
-Text Label 7800 2550 0    60   ~ 0
-UART_RTS
-Text Label 7800 2450 0    60   ~ 0
-UART_DCD
-Text Label 7800 2650 0    60   ~ 0
-UART_DTR
 NoConn ~ 10700 1100
 NoConn ~ 10700 1400
 Text Notes 700  1500 0    60   ~ 0
@@ -1154,7 +1148,7 @@ Find AT Command to set TX Power\nNot TXPWR Parameter (read-only)!\nModule does n
 Text Label 10700 3700 2    60   ~ 0
 UART_RI/~WoWWAN
 Text Notes 7800 2350 0    60   ~ 0
-Can be swapped\naround in layout
+Null Modem
 Text Notes 2150 3600 0    60   ~ 0
 Pull Up RI/WoWWAN on\nthe Host Side to 1.8V
 $Comp
@@ -1303,12 +1297,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 1850 7800 1850
 Wire Wire Line
-	8750 2450 7800 2450
-Wire Wire Line
-	8750 2550 7800 2550
-Wire Wire Line
-	8750 2650 7800 2650
-Wire Wire Line
 	8750 2750 7800 2750
 Wire Wire Line
 	8750 2850 7800 2850
@@ -1322,8 +1310,6 @@ Wire Wire Line
 	8750 3350 7800 3350
 Wire Wire Line
 	8750 3450 7800 3450
-Wire Wire Line
-	8750 3550 7800 3550
 Wire Wire Line
 	8750 3650 7800 3650
 Wire Wire Line
@@ -1935,4 +1921,18 @@ Wire Wire Line
 	2200 5300 2200 5250
 Text Notes 3650 5300 0    39   ~ 0
 "1.8V Digital I/O"
+Text Label 7800 2450 0    60   ~ 0
+UART_DCD
+Text Label 7800 2550 0    60   ~ 0
+UART_RTS
+Text Label 7800 2650 0    60   ~ 0
+UART_DTR
+NoConn ~ 7800 2550
+NoConn ~ 7800 2650
+NoConn ~ 8750 2450
+NoConn ~ 8750 2550
+NoConn ~ 8750 2650
+NoConn ~ 7800 2450
+NoConn ~ 7800 3550
+NoConn ~ 8750 3550
 $EndSCHEMATC
